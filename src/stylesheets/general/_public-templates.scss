@@ -191,7 +191,7 @@ a.read-more {
         text-decoration: underline;
 
         &:hover {
-          color: #006242;
+          color: get-color(dark-primary, main);
         }
       }
     }
@@ -256,12 +256,12 @@ a.read-more {
     line-height: normal;
 
     span {
-      color: #007A52 !important;
+      color: get-color(primary, main) !important;
     }
 
     &:hover {
       span {
-        color: #006242 !important;
+        color: get-color(dark-primary, main) !important;
       }
     }
   }

@@ -53,7 +53,7 @@
 
   .navbar .navbar-collapsable .navbar-nav li a.nav-link.active {
     @include media-breakpoint-down(md) {
-      background-color: rgba($color: #007A52, $alpha: 0.05);
+      background-color: rgba($color: get-color(primary, main), $alpha: 0.05);
     }
   }
 
@@ -62,11 +62,11 @@
       display: flex;
       align-items: center;
       background-color: transparent;
-      color: #fff;
+      color: get-color(white, main);
       @include font(14, 14);
 
       svg {
-        fill: #fff;
+        fill: get-color(white, main);
         width: 18px;
         height: 18px;
         margin-left: 4px;
@@ -113,11 +113,11 @@
     }
 
     @include media-breakpoint-up(md) {
-      background: #fff;
+      background: get-color(white, main);
     }
 
     svg {
-      fill: #fff;
+      fill: get-color(white, main);
       width: 1.5rem;
       height: 1.5rem;
 
@@ -137,7 +137,7 @@
     .it-socials {
       margin-top: 30px;
       padding: 0 24px;
-      color: #007A52;
+      color: get-color(primary, main);
 
       @include media-breakpoint-up(lg) {
         display: none;
@@ -155,7 +155,7 @@
 
           a {
             svg {
-              fill: #007A52 !important;
+              fill: get-color(primary, main) !important;
             }
           }
         }
@@ -194,7 +194,7 @@
     .logo-hamburger {
       display: flex;
       align-items: center;
-      color: #007A52;
+      color: get-color(primary, main);
       padding: 32px 50px 16px 24px;
 
       @include media-breakpoint-up(sm) {
@@ -206,7 +206,7 @@
       }
 
       .icon {
-        fill: #007A52;
+        fill: get-color(primary, main);
         margin-right: 16px;
       }
 
