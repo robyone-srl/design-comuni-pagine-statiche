@@ -22,7 +22,7 @@
 }
 
 .calendar-vertical {
-  color: hsl(160deg, 100%, 24%);
+  color: get-color(primary, main);
 
   &::after {
     display: block;
@@ -102,7 +102,7 @@
       right: 5px;
       width: 2px;
       height: 100%;
-      background-color: hsl(160deg, 100%, 24%);
+      background-color: get-color(primary, main);
       content: "";
     }
 
@@ -114,7 +114,7 @@
       z-index: 1;
       top: 1.875rem;
       right: 0.2px;
-      background-color: hsl(160deg, 100%, 24%);
+      background-color: get-color(primary, main);
       border-radius: 5px;
     
       @include media-breakpoint-down(md) {
