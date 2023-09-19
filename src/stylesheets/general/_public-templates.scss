@@ -288,7 +288,7 @@ a.read-more {
 // .office-section,
 // .contact-section {
 .card.card-teaser-info {
-  border-left: 8px solid rgba(0, 122, 82, 0.1);
+  border-left: 8px solid get-color(light-grey, grey);
 }
 // }
 
@@ -360,7 +360,7 @@ a.read-more {
 
 .it-page-section {
   .card.card-teaser-info {
-    border-left: 8px solid rgba(0, 122, 82, 0.1);
+    border-left: 8px solid get-color(light-grey, grey);
   }
 }
 
