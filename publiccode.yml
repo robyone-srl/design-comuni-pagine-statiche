@@ -47,7 +47,7 @@ localisation:
     - it
   localisationReady: true
 logo: |-
-  https://raw.githubusercontent.com/italia/design-comuni-pagine-statiche/main/public/icons/logo-comune.svg
+  https://raw.githubusercontent.com/italia/design-comuni-pagine-statiche/main/src/images/logo-comune.svg
 maintenance:
   contacts:
     - name: Francesco Improta
@@ -55,7 +55,7 @@ maintenance:
 name: Sito web e servizi digitali dei Comuni Italiani
 platforms:
   - web
-releaseDate: '2023-06-21'
-softwareVersion: v2.3.2
+releaseDate: '2024-05-06'
+softwareVersion: v2.3.4
 softwareType: standalone/web
 url: 'https://github.com/italia/design-comuni-pagine-statiche'
