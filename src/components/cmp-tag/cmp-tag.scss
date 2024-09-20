@@ -1,5 +1,3 @@
-@use "sass:map";
-
 .chip {
   &:not(.chip-disabled) {
     border-color: $primary;
@@ -21,7 +19,7 @@
       background-color: $primary;
 
       .chip-label {
-        color: get-color(white, main);
+        color: #fff;
       }
     }
   }

@@ -37,7 +37,7 @@
 
   .navbar .navbar-collapsable .navbar-nav li a.nav-link.active {
     @include media-breakpoint-down(md) {
-      background-color: rgba($color: get-color(primary, main), $alpha: 0.05);
+      background-color: rgba($color: $primary, $alpha: 0.05);
     }
   }
 
@@ -46,11 +46,11 @@
       display: flex;
       align-items: center;
       background-color: transparent;
-      color: get-color(white, main);
+      color: #fff;
       @include font(14, 14);
 
       svg {
-        fill: get-color(white, main);
+        fill: #fff;
         width: 18px;
         height: 18px;
         margin-left: 4px;
@@ -97,11 +97,11 @@
     }
 
     @include media-breakpoint-up(md) {
-      background: get-color(white, main);
+      background: #fff;
     }
 
     svg {
-      fill: get-color(white, main);
+      fill: #fff;
       width: 1.5rem;
       height: 1.5rem;
 

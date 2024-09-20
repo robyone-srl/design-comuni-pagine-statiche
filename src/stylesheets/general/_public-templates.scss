@@ -60,7 +60,7 @@
 }
 
 .has-bg-grey {
-  background-color: get-color(lighten, grey)
+  background-color: rgba($color: $primary, $alpha: 0.05)
 }
 
 .border-col{
