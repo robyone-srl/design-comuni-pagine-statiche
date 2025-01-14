@@ -2,9 +2,10 @@
 
 // PRIMARY COLOR
 // set the primary color by changing Hue, Saturation, Brightness values
-$primary-h: 160;
-$primary-s: 100;
-$primary-b: 48;
+// primary #7a2f34
+$primary-h: 138;
+$primary-s: 62;
+$primary-b: 38;
 
 // BS ITALIA - VERSION
 // useful to check for the current version
@@ -170,6 +171,13 @@ $primary-b: 48;
 // Custom styles specifically designed for ‘Modello Comuni‘
 
 @import "base/color";
+
+$ca-colors: map-merge($ca-colors, (
+    main: map-merge(map-get($ca-colors, main), (
+    primary: $primary
+  ))
+));
+
 @import "base/functions";
 @import "base/mixins";
 @import "base/reset";
@@ -235,3 +243,5 @@ $primary-b: 48;
 @import "../components/cmp-tot/cmp-tot";
 @import "../components/cmp-card-teaser/cmp-card-teaser";
 @import "general/print";
+
+.it-socials a{color:#fff}
