@@ -2,10 +2,9 @@
 
 // PRIMARY COLOR
 // set the primary color by changing Hue, Saturation, Brightness values
-// primary #007a52
-$primary-h: 160;
-$primary-s: 100;
-$primary-b: 48;
+$primary-h: 210;
+$primary-s: 92;
+$primary-b: 64;
 
 // BS ITALIA - VERSION
 // useful to check for the current version
@@ -26,6 +25,8 @@ $primary-b: 48;
 // BS5 Configuration
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
+/* accessibility fix */
+$card-inner-border-radius: if(subtract($card-border-radius, $card-border-width) < 0, 0, subtract($card-border-radius, $card-border-width));
 @import '../../node_modules/bootstrap/scss/mixins';
 @import '../../node_modules/bootstrap-italia/src/scss/custom/mixins/buttons';
 @import '../../node_modules/bootstrap-italia/src/scss/custom/mixins/text-emphasis';
