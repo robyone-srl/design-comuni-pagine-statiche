@@ -2,9 +2,10 @@
 
 // PRIMARY COLOR
 // set the primary color by changing Hue, Saturation, Brightness values
-$primary-h: 210;
-$primary-s: 92;
-$primary-b: 64;
+// primary #292E5B
+$primary-h: 234;
+$primary-s: 55;
+$primary-b: 36;
 
 // BS ITALIA - VERSION
 // useful to check for the current version
@@ -246,3 +247,26 @@ $ca-colors: map-merge($ca-colors, (
 @import "general/print";
 
 .it-socials a{color:#fff}
+
+.link-list-wrapper {
+  ul {
+    li {
+      a {
+        text-decoration: underline;
+
+        &:hover:not(.disabled) {
+          text-decoration: none;
+        }
+        &.disabled:hover {
+          text-decoration: underline;
+        }
+        &.active {
+          text-decoration: none;
+          span {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
